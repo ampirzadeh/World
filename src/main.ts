@@ -2,7 +2,7 @@ import ForceGraph3D from "3d-force-graph";
 import "./style.css";
 
 // Random tree
-const N = 5_000;
+const N = 2_000;
 const gData = {
   nodes: [...Array(N).keys()].map((i) => ({ id: i })),
   links: [...Array(N).keys()]
