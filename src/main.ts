@@ -13,6 +13,4 @@ const gData = {
     })),
 };
 
-const Graph = new ForceGraph3D(document.getElementById("3d-graph")!).graphData(
-  gData,
-);
+new ForceGraph3D(document.getElementById("3d-graph")!).graphData(gData);
